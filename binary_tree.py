@@ -1,4 +1,4 @@
-tomorrowfrom fancy_tree_printer import print_fancy_tree
+from fancy_tree_printer import print_fancy_tree
 
 
 class Node:
