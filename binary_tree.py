@@ -86,3 +86,11 @@ if __name__ == "__main__":
     # Print the tree
     print("Initial Tree:")
     print(tree.display())
+
+    # Search for a value
+    key_to_search = 7
+    found_node = tree.search(tree.root, key_to_search)
+    if found_node:
+        print(f"Node with value {key_to_search} found.")
+    else:
+        print(f"Node with value {key_to_search} not found.")
