@@ -74,3 +74,11 @@ class BinaryTree:
 
 
 if __name__ == "__main__":
+    # Initialize the binary tree
+    tree = BinaryTree(10)
+    tree.insert_left(tree.root, 5)
+    tree.insert_right(tree.root, 15)
+    tree.insert_left(tree.root.left, 2)
+    tree.insert_right(tree.root.left, 7)
+    tree.insert_left(tree.root.right, 12)
+    tree.insert_right(tree.root.right, 20)
