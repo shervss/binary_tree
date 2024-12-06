@@ -94,3 +94,10 @@ if __name__ == "__main__":
         print(f"Node with value {key_to_search} found.")
     else:
         print(f"Node with value {key_to_search} not found.")
+
+    # Delete a node
+    key_to_delete = 15
+    tree.root = tree.delete_node(tree.root, key_to_delete)
+    print(f"\nTree after deleting node {key_to_delete}:")
+    print(tree.display())
+        
