@@ -87,6 +87,9 @@ if __name__ == "__main__":
     print("Initial Tree:")
     print(tree.display())
 
+    # In-order Traversal
+    print("\nIn-order Traversal:", tree.inorder(tree.root))
+
     # Search for a value
     key_to_search = 7
     found_node = tree.search(tree.root, key_to_search)
