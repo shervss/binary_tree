@@ -100,4 +100,6 @@ if __name__ == "__main__":
     tree.root = tree.delete_node(tree.root, key_to_delete)
     print(f"\nTree after deleting node {key_to_delete}:")
     print(tree.display())
-        
+
+    # In-order Traversal
+    print("\nIn-order Traversal:", tree.inorder(tree.root))
