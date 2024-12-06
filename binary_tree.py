@@ -1,4 +1,4 @@
-from fancy_tree_printer import print_fancy_tree
+tomorrowfrom fancy_tree_printer import print_fancy_tree
 
 
 class Node:
@@ -82,3 +82,7 @@ if __name__ == "__main__":
     tree.insert_right(tree.root.left, 7)
     tree.insert_left(tree.root.right, 12)
     tree.insert_right(tree.root.right, 20)
+
+    # Print the tree
+    print("Initial Tree:")
+    print(tree.display())
